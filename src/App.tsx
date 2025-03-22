@@ -1,3 +1,9 @@
+/**
+ * This file contains the main App component for the React application.
+ * It sets up the basic structure of the application, including the logo, title, and a counter button.
+ * The App component is the root component of the application and is rendered by the main.tsx file.
+ */
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'

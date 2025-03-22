@@ -1,4 +1,7 @@
 {
+  // This file contains the TypeScript configuration for the application.
+  // It specifies the compiler options and the files to be included in the compilation process.
+
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
