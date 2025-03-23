@@ -1,3 +1,5 @@
+/* This file contains the CSS styles for the entire application. It defines the global styles, including the font, colors, and layout for various elements in the application. */
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

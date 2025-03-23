@@ -1,4 +1,7 @@
 {
+  // This file contains the base TypeScript configuration for the project.
+  // It references other TypeScript configuration files for the application and node environments.
+
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

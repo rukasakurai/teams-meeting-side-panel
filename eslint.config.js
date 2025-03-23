@@ -1,3 +1,8 @@
+/**
+ * This file configures ESLint for the project.
+ * It sets up the necessary plugins, rules, and configurations for linting TypeScript and React code.
+ */
+
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
