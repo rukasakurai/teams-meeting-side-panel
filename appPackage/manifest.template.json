@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "{{APP_ID}}",
+  "developer": {
+    "name": "{{DEVELOPER_NAME}}",
+    "websiteUrl": "{{WEBSITE_URL}}",
+    "privacyUrl": "{{PRIVACY_URL}}",
+    "termsOfUseUrl": "{{TERMS_URL}}"
+  },
+  "name": {
+    "short": "Teams Meeting Side Panel",
+    "full": "Teams Meeting Side Panel App"
+  },
+  "description": {
+    "short": "A React app in Teams meeting side panel",
+    "full": "This app allows users to interact with a React app during a Teams meeting via the side panel."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#FFFFFF",
+  "configurableTabs": [
+    {
+      "configurationUrl": "{{CONFIGURATION_URL}}",
+      "canUpdateConfiguration": true,
+      "scopes": ["team", "groupChat"]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["{{VALID_DOMAIN}}"]
+}

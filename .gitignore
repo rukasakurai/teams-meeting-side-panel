@@ -1,5 +1,5 @@
 # This file specifies which files and directories should be ignored by git.
-# It helps to avoid committing unnecessary or sensitive files to the repository.
+# It helps to avoid committing unnecessary or sensitive files to the repository. Here is a breakdown of the sections in your `.gitignore` file:
 
 # Logs
 logs
@@ -25,3 +25,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Microsoft Teams app files created upon build
+appPackage/manifest.json
+appPackage/teams-meeting-side-panel.zip
+
+# Private files
+private/
